@@ -1,0 +1,45 @@
+; file: trnsz.com.bind
+; zone: trnsz.com
+
+; records
+
+; wildcard
+*.trnsz.com.								A		198.58.100.240
+*.trnsz.com.								AAAA	2600:3c00::f03c:91ff:fe10:e6a7
+
+; trnsz.com
+trnsz.com.									A		198.58.100.240
+trnsz.com.									AAAA	2600:3c00::f03c:91ff:fe10:e6a7
+www.trnsz.com.								CNAME	trnsz.com.
+trnsz.com.									CAA		0 issue "letsencrypt.org"
+
+; y.trnsz.com (trnsz.com yggdrasil)
+y.trnsz.com.								AAAA	205:ddf2:80b9:7896:7b18:622b:5579:aa7d
+y.trnsz.com.								CAA		0 issue "letsencrypt.org"
+
+; h.trnsz.com (trnsz.com cjdns)
+h.trnsz.com.								AAAA	fc18:cd5:92ad:5ed6:9960:ad6f:d723:b971
+h.trnsz.com.								CAA		0 issue "letsencrypt.org"
+
+; m.trnsz.com
+m.trnsz.com.								A		139.162.119.37
+m.trnsz.com.								AAAA	2400:8902::f03c:91ff:fe1f:c32a
+m.trnsz.com.								CAA		0 issue "letsencrypt.org"
+
+; pr-ex.trnsz.com
+pr-ex.trnsz.com.							A		178.79.186.241
+pr-ex.trnsz.com.							AAAA	2a01:7e00::f03c:92ff:fe3c:d8ab
+pr-ex.trnsz.com.							CAA		0 issue	"letsencrypt.org"
+
+; mail
+trnsz.com.									MX		10 mx-1.pobox.com. 
+trnsz.com.									MX		10 mx-2.pobox.com. 
+trnsz.com.									MX		10 mx-3.pobox.com. 
+trnsz.com.									MX		10 mx-4.pobox.com. 
+trnsz.com.									MX		10 mx-5.pobox.com. 
+trnsz.com.									TXT		"v=spf1 mx a a:ban.ai a:prone.ws include:pobox.com -all"
+mesmtp._domainkey.trnsz.com.				SRV		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDARP4Q/2/8vlE5DQQexn7/2i1+fbLpdSnTblIKFO9fo3Kywr0DDft9hTeFLbPqKM55xXKCAz1zXkdy0Djd+svtrndrYWaYU+9hAtoX9a9eBOUQixqBAGj3o+hQsBqQkJijJig5siQpfxBwRSDLE2fL5bWco2iOCEpmX6c+tuVldQIDAQAB"
+
+; github
+_github-challenge-gridfinity.trnsz.com.		TXT		24af80accb
+
