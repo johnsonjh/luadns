@@ -1,0 +1,18 @@
+; file:                                                    ban.ai.bind
+; zone:                                                    ban.ai
+; defaults
+$ORIGIN                                                    ban.ai.
+$TTL                                                       3600
+ban.ai.                                     IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
+                                                           1       ; serial (luadns managed)
+                                                           1200    ; refresh
+                                                           120     ; retry
+                                                           604800  ; expiration
+                                                           3600    ; default ttl
+                                                           )
+ban.ai.                                     NS             ns1.luadns.net.
+ban.ai.                                     NS             ns2.luadns.net.
+ban.ai.                                     NS             ns3.luadns.net.
+ban.ai.                                     NS             ns4.luadns.net.
+*.ban.ai.                                   A              108.226.107.96
+ban.ai.                                     A              108.226.107.96
