@@ -59,4 +59,4 @@ trnsz.com.									MX		10 mx-3.pobox.com.
 trnsz.com.									MX		10 mx-4.pobox.com. 
 trnsz.com.									MX		10 mx-5.pobox.com. 
 trnsz.com.									TXT		"v=spf1 mx a a:ban.ai a:prone.ws include:pobox.com -all"
-mesmtp._domainkey.trnsz.com.				SRV		10 v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDARP4Q/2/8vlE5DQQexn7/2i1+fbLpdSnTblIKFO9fo3Kywr0DDft9hTeFLbPqKM55xXKCAz1zXkdy0Djd+svtrndrYWaYU+9hAtoX9a9eBOUQixqBAGj3o+hQsBqQkJijJig5siQpfxBwRSDLE2fL5bWco2iOCEpmX6c+tuVldQIDAQAB
+mesmtp._domainkey.trnsz.com.				TXT		v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDARP4Q/2/8vlE5DQQexn7/2i1+fbLpdSnTblIKFO9fo3Kywr0DDft9hTeFLbPqKM55xXKCAz1zXkdy0Djd+svtrndrYWaYU+9hAtoX9a9eBOUQixqBAGj3o+hQsBqQkJijJig5siQpfxBwRSDLE2fL5bWco2iOCEpmX6c+tuVldQIDAQAB
