@@ -18,9 +18,9 @@ prone.ws.                                   NS             ns3.luadns.net.
 prone.ws.                                   NS             ns4.luadns.net.
 ; *.prone.ws                                ;              wildcard
 *.prone.ws.                                 A              50.116.31.54
-*.prone.ws.                                 AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+;*.prone.ws.                                 AAAA           2600:3c00::f03c:91ff:fe10:e6a7
 prone.ws.                                   A              50.116.31.54
-prone.ws.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+;prone.ws.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
 prone.ws.                                   CAA            0 issue "letsencrypt.org"
 ; mail                                      ;              mail
 prone.ws.                                   MX             10 mx-1.pobox.com. 

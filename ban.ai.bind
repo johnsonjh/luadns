@@ -18,9 +18,9 @@ ban.ai.                                     NS             ns3.luadns.net.
 ban.ai.                                     NS             ns4.luadns.net.
 ; *.ban.ai                                  ;              wildcard
 *.ban.ai.                                   A              50.116.31.54
-*.ban.ai.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+;*.ban.ai.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
 ban.ai.                                     A              50.116.31.54
-ban.ai.                                     AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+;ban.ai.                                     AAAA           2600:3c00::f03c:91ff:fe10:e6a7
 ban.ai.                                     CAA            0 issue "letsencrypt.org"
 ; mail                                      ;              mail
 ban.ai.                                     MX             10 mx-1.pobox.com. 
