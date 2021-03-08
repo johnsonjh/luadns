@@ -1,0 +1,32 @@
+; file:                                                    prone.ws.bind
+; zone:                                                    prone.ws
+; defaults
+$ORIGIN                                                    prone.ws.
+$TTL                                                       3600
+; soa
+prone.ws.                                   IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
+                                                           1       ; serial (luadns managed)
+                                                           1200    ; refresh
+                                                           120     ; retry
+                                                           604800  ; expiration
+                                                           3600    ; default ttl
+                                                           )
+; ns                                        ;              nameservers
+prone.ws.                                   NS             ns1.luadns.net.
+prone.ws.                                   NS             ns2.luadns.net.
+prone.ws.                                   NS             ns3.luadns.net.
+prone.ws.                                   NS             ns4.luadns.net.
+; *.prone.ws                                ;              wildcard
+*.prone.ws.                                 A              50.116.31.54
+*.prone.ws.                                 AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+prone.ws.                                   A              50.116.31.54
+prone.ws.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+prone.ws.                                   CAA            0 issue "letsencrypt.org"
+; mail                                      ;              mail
+prone.ws.                                   MX             10 mx-1.pobox.com. 
+prone.ws.                                   MX             10 mx-2.pobox.com. 
+prone.ws.                                   MX             10 mx-3.pobox.com. 
+prone.ws.                                   MX             10 mx-4.pobox.com. 
+prone.ws.                                   MX             10 mx-5.pobox.com. 
+prone.ws.                                   TXT            "v=spf1 mx a a:ban.ai a:trnsz.com include:pobox.com -all"
+2018-03.pbsmtp._domainkey.prone.ws          TXT            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4UaxXxy2JEdkPKlJx3MofCw696coSicOzCR+FxNJiNUQduEG89VcwuaLl6Qpw+4AZ3xdIJi5wrGJ+xsIGShLoWIWX1YdeH+10Ek1+v6Mz9Q82vue04NRIM+uq+I8RZ+U6yUEYUOiBWU+3JhkyGkfpxVHl3T+D9tWy8NYG0wgG0wIDAQAB"

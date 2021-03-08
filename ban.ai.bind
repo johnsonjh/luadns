@@ -1,0 +1,32 @@
+; file:                                                    ban.ai.bind
+; zone:                                                    ban.ai
+; defaults
+$ORIGIN                                                    ban.ai.
+$TTL                                                       3600
+; soa
+ban.ai.                                     IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
+                                                           1       ; serial (luadns managed)
+                                                           1200    ; refresh
+                                                           120     ; retry
+                                                           604800  ; expiration
+                                                           3600    ; default ttl
+                                                           )
+; ns                                        ;              nameservers
+ban.ai.                                     NS             ns1.luadns.net.
+ban.ai.                                     NS             ns2.luadns.net.
+ban.ai.                                     NS             ns3.luadns.net.
+ban.ai.                                     NS             ns4.luadns.net.
+; *.ban.ai                                  ;              wildcard
+*.ban.ai.                                   A              50.116.31.54
+*.ban.ai.                                   AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+ban.ai.                                     A              50.116.31.54
+ban.ai.                                     AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+ban.ai.                                     CAA            0 issue "letsencrypt.org"
+; mail                                      ;              mail
+ban.ai.                                     MX             10 mx-1.pobox.com. 
+ban.ai.                                     MX             10 mx-2.pobox.com. 
+ban.ai.                                     MX             10 mx-3.pobox.com. 
+ban.ai.                                     MX             10 mx-4.pobox.com. 
+ban.ai.                                     MX             10 mx-5.pobox.com. 
+ban.ai.                                     TXT            "v=spf1 mx a a:prone.ws a:trnsz.com include:pobox.com -all"
+2018-06.pbsmtp._domainkey.ban.ai            TXT            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT4F5lXsSxjImF8wxeU3TDI+v8upT8rGJtS/7cUWwEJcmMCp0wcgVyRPU+cPuIyp3aofl0XTQPTaSXGwodZoIX4o/qBg87SmXXGw2jPHrJ8o+Gybt5d+9yi18PzHiSyZHDvzJcK4vcQ40Px93WZu7VFvXobXSXE5kkcxXUoaOt0wIDAQAB"
