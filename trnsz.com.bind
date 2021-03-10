@@ -169,7 +169,7 @@ h.pr-ex.trnsz.com.                          IN SSHFP       4 1 de556bb12a14a86ba
 h.pr-ex.trnsz.com.                          IN SSHFP       4 2 fe407dfe28ce89bd683693daca0f11e480c74914fc8b844ba2c468aea9b4f92d
 ; gitlab.trnsz.com                          ;              gitlab.trnsz.com
 gitlab.trnsz.com.                           120 A          108.226.107.96
-gitlab.trnsz.com.                           120 AAAA       2600:1700:8ce1:19b0::2f
+gitlab.trnsz.com.                           120 AAAA       2600:1700:8ce1:19b0::41
 gitlab.trnsz.com.                           CAA            0 issue "letsencrypt.org"
 gitlab.trnsz.com.                           IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
 gitlab.trnsz.com.                           IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
