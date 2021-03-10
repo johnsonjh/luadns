@@ -52,7 +52,7 @@ m.trnsz.com.                                AAAA           2400:8902::f03c:91ff:
 m.trnsz.com.                                CAA            0 issue "letsencrypt.org"
 ; brshpc0.trnsz.com                         ;              brshpc0.trnsz.com
 brshpc0.trnsz.com.                          120 A          108.226.107.96
-brshpc0.trnsz.com.                          120 AAAA       2600:1700:8ce1:19b0::2f
+brshpc0.trnsz.com.                          120 AAAA       2600:1700:8ce1:19b0::41
 brshpc0.trnsz.com.                          CAA            0 issue "letsencrypt.org"
 brshpc0.trnsz.com.                          IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
 brshpc0.trnsz.com.                          IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
