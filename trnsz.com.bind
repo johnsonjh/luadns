@@ -268,6 +268,8 @@ t.gitlab.trnsz.com.                         IN SSHFP       3 1 7019066c56994426f
 t.gitlab.trnsz.com.                         IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
 t.gitlab.trnsz.com.                         IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
 t.gitlab.trnsz.com.                         IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
+; multics.trnsz.com                         ;              multics.trnsz.com
+multics.trnsz.com.                          CNAME          brshpc0.trnsz.com.
 ; mail                                      ;              mail
 trnsz.com.                                  MX             10 mx-1.pobox.com. 
 trnsz.com.                                  MX             10 mx-2.pobox.com. 
