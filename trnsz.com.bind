@@ -18,10 +18,10 @@ trnsz.com.                                  NS             ns3.luadns.net.
 trnsz.com.                                  NS             ns4.luadns.net.
 ; *.trnsz.com                               ;              wildcard
 *.trnsz.com.                                A              198.58.100.240
-*.trnsz.com.                                AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+*.trnsz.com.                                AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ; trnsz.com                                 ;              trnsz.com
 trnsz.com.                                  A              198.58.100.240
-trnsz.com.                                  AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+trnsz.com.                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 www.trnsz.com.                              CNAME          trnsz.com.
 trnsz.com.                                  CAA            0 issue "letsencrypt.org"
 trnsz.com.                                  IN SSHFP       1 1 c38a12d08da82c5750135bfc4be6bc48a5a42806
@@ -47,9 +47,7 @@ h.trnsz.com.                                IN SSHFP       3 2 0dea3ca87e211821b
 h.trnsz.com.                                IN SSHFP       4 1 fbb1017b92c2b79fcd9f95cdc9771a72c5c684f4
 h.trnsz.com.                                IN SSHFP       4 2 d1640df3467b6daf11279a39bc6e09dff50c088ca3d8c7af1ddbb2cf09b6cc92
 ; m.trnsz.com                               ;              m.trnsz.com
-m.trnsz.com.                                A              139.162.119.37
-m.trnsz.com.                                AAAA           2400:8902::f03c:91ff:fe1f:c32a
-m.trnsz.com.                                CAA            0 issue "letsencrypt.org"
+m.trnsz.com.                                CNAME          m.ban.ai.
 ; brshpc0.trnsz.com                         ;              brshpc0.trnsz.com
 brshpc0.trnsz.com.                          120 A          108.226.107.96
 brshpc0.trnsz.com.                          120 AAAA       2600:1700:8ce1:19b0::41
@@ -168,9 +166,7 @@ h.pr-ex.trnsz.com.                          IN SSHFP       3 2 bd6e35f08bebcd52f
 h.pr-ex.trnsz.com.                          IN SSHFP       4 1 de556bb12a14a86baef92981dbd01cf5bb25a83f
 h.pr-ex.trnsz.com.                          IN SSHFP       4 2 fe407dfe28ce89bd683693daca0f11e480c74914fc8b844ba2c468aea9b4f92d
 ; gitlab.trnsz.com                          ;              gitlab.trnsz.com
-gitlab.trnsz.com.                           120 A          108.226.107.96
-gitlab.trnsz.com.                           120 AAAA       2600:1700:8ce1:19b0::41
-gitlab.trnsz.com.                           CAA            0 issue "letsencrypt.org"
+gitlab.trnsz.com.                           CNAME          brshpc0.trnsz.com.
 gitlab.trnsz.com.                           IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
 gitlab.trnsz.com.                           IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
 gitlab.trnsz.com.                           IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64

@@ -18,9 +18,9 @@ ban.ai.                                     NS             ns3.luadns.net.
 ban.ai.                                     NS             ns4.luadns.net.
 ; *.ban.ai                                  ;              wildcard
 *.ban.ai.                                   A              50.116.31.54
-; *.ban.ai                                  AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+; *.ban.ai                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ban.ai.                                     A              50.116.31.54
-; ban.ai                                    AAAA           2600:3c00::f03c:91ff:fe10:e6a7
+; ban.ai                                    AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ban.ai.                                     CAA            0 issue "letsencrypt.org"
 ; m.ban.ai                                  ;              m.ban.ai
 m.ban.ai.                                   CNAME          multics.trnsz.com.
