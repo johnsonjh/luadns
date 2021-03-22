@@ -167,26 +167,6 @@ h.pr-ex.trnsz.com.                          IN SSHFP       4 1 de556bb12a14a86ba
 h.pr-ex.trnsz.com.                          IN SSHFP       4 2 fe407dfe28ce89bd683693daca0f11e480c74914fc8b844ba2c468aea9b4f92d
 ; gitlab.trnsz.com                          ;              gitlab.trnsz.com
 gitlab.trnsz.com.                           CNAME          brshpc0.trnsz.com.
-gitlab.trnsz.com.                           IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-gitlab.trnsz.com.                           IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-gitlab.trnsz.com.                           IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-gitlab.trnsz.com.                           IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-gitlab.trnsz.com.                           IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-gitlab.trnsz.com.                           IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-gitlab.trnsz.com.                           IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-gitlab.trnsz.com.                           IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-gitlab.trnsz.com.                           IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-gitlab.trnsz.com.                           IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-gitlab.trnsz.com.                           IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-gitlab.trnsz.com.                           IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-gitlab.trnsz.com.                           IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-gitlab.trnsz.com.                           IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
-gitlab.trnsz.com.                           IN SSHFP       1 1 80e0ea03aa62b709bcef72faa4c9cb6a6d56c407
-gitlab.trnsz.com.                           IN SSHFP       1 2 66554e9d32b483076b5aea46afbac589ef373e7f575b1c6bc5ee71fcafc85867
-gitlab.trnsz.com.                           IN SSHFP       3 1 b6aba74e1e8a956bda7970b122ecaa50fdce0d36
-gitlab.trnsz.com.                           IN SSHFP       3 2 242b63058f2b864b44b1db5314e0cffe30a3497b58455e7cebe9f9e8ebb77494
-gitlab.trnsz.com.                           IN SSHFP       4 1 25ee7d8a127743cebfc2cc698c19fac24927a479
-gitlab.trnsz.com.                           IN SSHFP       4 2 5be6bdcd661bd756a145c8dee8d3472a308e4a44bfd9ed25d602d07b456c7f2f
 ; y.gitlab.trnsz.com                        ;              yggdrasil
 y.gitlab.trnsz.com.                         AAAA           200:6c77:5eb3:4ebf:edb6:8baa:ae72:69be
 y.gitlab.trnsz.com.                         IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
