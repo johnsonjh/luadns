@@ -47,7 +47,7 @@ t.brshpc0.trnsz.com.                        A              100.125.101.96
 t.brshpc0.trnsz.com.                        AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
 ; pr-ex.trnsz.com                           ;              pr-ex.trnsz.com
 pr-ex.trnsz.com.                            A              178.79.186.241
-pr-ex.trnsz.com.                            AAAA           2600:3c00::f03c:92ff:feb2:b9ef
+pr-ex.trnsz.com.                            AAAA           2a01:7e00::f03c:92ff:fe3c:d8ab
 pr-ex.trnsz.com.                            CAA            0 issue "letsencrypt.org"
 ; h.pr-ex.trnsz.com                         ;              cjdns
 h.pr-ex.trnsz.com.                          AAAA           fc32:14bf:6fa1:ec32:3f5a:8805:da45:ea68
