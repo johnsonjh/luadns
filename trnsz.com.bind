@@ -24,226 +24,44 @@ trnsz.com.                                  A              198.58.100.240
 trnsz.com.                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 www.trnsz.com.                              CNAME          trnsz.com.
 trnsz.com.                                  CAA            0 issue "letsencrypt.org"
-trnsz.com.                                  IN SSHFP       1 1 c38a12d08da82c5750135bfc4be6bc48a5a42806
-trnsz.com.                                  IN SSHFP       1 2 d787e3082c61ede6c8105275dc7f9908856f22eed12c12379da1190b5e6ea314
-trnsz.com.                                  IN SSHFP       3 1 812eede0efb92f9bdd05633f753fca7400b14c63
-trnsz.com.                                  IN SSHFP       3 2 0dea3ca87e211821bea853b3a45e9b380fd35470ef48451e8f3dc877fb3a7a00
-trnsz.com.                                  IN SSHFP       4 1 fbb1017b92c2b79fcd9f95cdc9771a72c5c684f4
-trnsz.com.                                  IN SSHFP       4 2 d1640df3467b6daf11279a39bc6e09dff50c088ca3d8c7af1ddbb2cf09b6cc92
 ; y.trnsz.com                               ;              yggdrasil
 y.trnsz.com.                                AAAA           205:ddf2:80b9:7896:7b18:622b:5579:aa7d
-y.trnsz.com.                                IN SSHFP       1 1 c38a12d08da82c5750135bfc4be6bc48a5a42806
-y.trnsz.com.                                IN SSHFP       1 2 d787e3082c61ede6c8105275dc7f9908856f22eed12c12379da1190b5e6ea314
-y.trnsz.com.                                IN SSHFP       3 1 812eede0efb92f9bdd05633f753fca7400b14c63
-y.trnsz.com.                                IN SSHFP       3 2 0dea3ca87e211821bea853b3a45e9b380fd35470ef48451e8f3dc877fb3a7a00
-y.trnsz.com.                                IN SSHFP       4 1 fbb1017b92c2b79fcd9f95cdc9771a72c5c684f4
-y.trnsz.com.                                IN SSHFP       4 2 d1640df3467b6daf11279a39bc6e09dff50c088ca3d8c7af1ddbb2cf09b6cc92
 ; h.trnsz.com                               ;              cjdns
 h.trnsz.com.                                AAAA           fc18:cd5:92ad:5ed6:9960:ad6f:d723:b971
-h.trnsz.com.                                IN SSHFP       1 1 c38a12d08da82c5750135bfc4be6bc48a5a42806
-h.trnsz.com.                                IN SSHFP       1 2 d787e3082c61ede6c8105275dc7f9908856f22eed12c12379da1190b5e6ea314
-h.trnsz.com.                                IN SSHFP       3 1 812eede0efb92f9bdd05633f753fca7400b14c63
-h.trnsz.com.                                IN SSHFP       3 2 0dea3ca87e211821bea853b3a45e9b380fd35470ef48451e8f3dc877fb3a7a00
-h.trnsz.com.                                IN SSHFP       4 1 fbb1017b92c2b79fcd9f95cdc9771a72c5c684f4
-h.trnsz.com.                                IN SSHFP       4 2 d1640df3467b6daf11279a39bc6e09dff50c088ca3d8c7af1ddbb2cf09b6cc92
 ; m.trnsz.com                               ;              m.trnsz.com
 m.trnsz.com.                                CNAME          m.ban.ai.
 ; brshpc0.trnsz.com                         ;              brshpc0.trnsz.com
 brshpc0.trnsz.com.                          120 A          108.226.107.96
 brshpc0.trnsz.com.                          120 AAAA       2600:1700:8ce1:19b0::41
 brshpc0.trnsz.com.                          CAA            0 issue "letsencrypt.org"
-brshpc0.trnsz.com.                          IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-brshpc0.trnsz.com.                          IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-brshpc0.trnsz.com.                          IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-brshpc0.trnsz.com.                          IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-brshpc0.trnsz.com.                          IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-brshpc0.trnsz.com.                          IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-brshpc0.trnsz.com.                          IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-brshpc0.trnsz.com.                          IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-brshpc0.trnsz.com.                          IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-brshpc0.trnsz.com.                          IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-brshpc0.trnsz.com.                          IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-brshpc0.trnsz.com.                          IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-brshpc0.trnsz.com.                          IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-brshpc0.trnsz.com.                          IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; y.brshpc0.trnsz.com                       ;              yggdrasil
 y.brshpc0.trnsz.com.                        AAAA           200:6c77:5eb3:4ebf:edb6:8baa:ae72:69be
-y.brshpc0.trnsz.com.                        IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-y.brshpc0.trnsz.com.                        IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-y.brshpc0.trnsz.com.                        IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-y.brshpc0.trnsz.com.                        IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-y.brshpc0.trnsz.com.                        IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-y.brshpc0.trnsz.com.                        IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-y.brshpc0.trnsz.com.                        IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-y.brshpc0.trnsz.com.                        IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-y.brshpc0.trnsz.com.                        IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-y.brshpc0.trnsz.com.                        IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-y.brshpc0.trnsz.com.                        IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-y.brshpc0.trnsz.com.                        IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-y.brshpc0.trnsz.com.                        IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-y.brshpc0.trnsz.com.                        IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; h.brshpc0.trnsz.com                       ;              cjdns
 h.brshpc0.trnsz.com.                        AAAA           fcc4:9094:0dca:f11a:2955:452e:1772:aee4
-h.brshpc0.trnsz.com.                        IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-h.brshpc0.trnsz.com.                        IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-h.brshpc0.trnsz.com.                        IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-h.brshpc0.trnsz.com.                        IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-h.brshpc0.trnsz.com.                        IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-h.brshpc0.trnsz.com.                        IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-h.brshpc0.trnsz.com.                        IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-h.brshpc0.trnsz.com.                        IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-h.brshpc0.trnsz.com.                        IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-h.brshpc0.trnsz.com.                        IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-h.brshpc0.trnsz.com.                        IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-h.brshpc0.trnsz.com.                        IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-h.brshpc0.trnsz.com.                        IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-h.brshpc0.trnsz.com.                        IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; nebula-lighthouse.trnsz.com               ;              nebula-lighthouse
 nebula-lighthouse.trnsz.com.                CNAME          brshpc0.trnsz.com.
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-nebula-lighthouse.brshpc0.trnsz.com.        IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; n.brshpc0.trnsz.com                       ;              nebula
 n.brshpc0.trnsz.com.                        A              192.168.42.1
-n.brshpc0.trnsz.com.                        IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-n.brshpc0.trnsz.com.                        IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-n.brshpc0.trnsz.com.                        IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-n.brshpc0.trnsz.com.                        IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-n.brshpc0.trnsz.com.                        IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-n.brshpc0.trnsz.com.                        IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-n.brshpc0.trnsz.com.                        IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-n.brshpc0.trnsz.com.                        IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-n.brshpc0.trnsz.com.                        IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-n.brshpc0.trnsz.com.                        IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-n.brshpc0.trnsz.com.                        IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-n.brshpc0.trnsz.com.                        IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-n.brshpc0.trnsz.com.                        IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-n.brshpc0.trnsz.com.                        IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; t.brshpc0.trnsz.com                       ;              tailscale
 t.brshpc0.trnsz.com.                        A              100.125.101.96
 t.brshpc0.trnsz.com.                        AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
-t.brshpc0.trnsz.com.                        IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-t.brshpc0.trnsz.com.                        IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-t.brshpc0.trnsz.com.                        IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-t.brshpc0.trnsz.com.                        IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-t.brshpc0.trnsz.com.                        IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-t.brshpc0.trnsz.com.                        IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-t.brshpc0.trnsz.com.                        IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-t.brshpc0.trnsz.com.                        IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-t.brshpc0.trnsz.com.                        IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-t.brshpc0.trnsz.com.                        IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-t.brshpc0.trnsz.com.                        IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-t.brshpc0.trnsz.com.                        IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-t.brshpc0.trnsz.com.                        IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-t.brshpc0.trnsz.com.                        IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; pr-ex.trnsz.com                           ;              pr-ex.trnsz.com
 pr-ex.trnsz.com.                            A              178.79.186.241
-pr-ex.trnsz.com.                            AAAA           2a01:7e00::f03c:92ff:fe3c:d8ab
+pr-ex.trnsz.com.                            AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 pr-ex.trnsz.com.                            CAA            0 issue "letsencrypt.org"
-pr-ex.trnsz.com.                            IN SSHFP       1 1 0992ee6c1f0495b0fc543eb6bd27fe8e82e57124
-pr-ex.trnsz.com.                            IN SSHFP       1 2 fc90753ed9cff90c5258e6a5aebe65d9394705aa936ebe3eeea09922d7eb7d57
-pr-ex.trnsz.com.                            IN SSHFP       3 1 a8fd7aebdd62493d1774db5d38c49683e2c9d91c
-pr-ex.trnsz.com.                            IN SSHFP       3 2 bd6e35f08bebcd52f6aa8ab1d3a6eb25e909b17b2647c8decd0f557960f54907
-pr-ex.trnsz.com.                            IN SSHFP       4 1 de556bb12a14a86baef92981dbd01cf5bb25a83f
-pr-ex.trnsz.com.                            IN SSHFP       4 2 fe407dfe28ce89bd683693daca0f11e480c74914fc8b844ba2c468aea9b4f92d
 ; h.pr-ex.trnsz.com                         ;              cjdns
 h.pr-ex.trnsz.com.                          AAAA           fc32:14bf:6fa1:ec32:3f5a:8805:da45:ea68
-h.pr-ex.trnsz.com.                          IN SSHFP       1 1 0992ee6c1f0495b0fc543eb6bd27fe8e82e57124
-h.pr-ex.trnsz.com.                          IN SSHFP       1 2 fc90753ed9cff90c5258e6a5aebe65d9394705aa936ebe3eeea09922d7eb7d57
-h.pr-ex.trnsz.com.                          IN SSHFP       3 1 a8fd7aebdd62493d1774db5d38c49683e2c9d91c
-h.pr-ex.trnsz.com.                          IN SSHFP       3 2 bd6e35f08bebcd52f6aa8ab1d3a6eb25e909b17b2647c8decd0f557960f54907
-h.pr-ex.trnsz.com.                          IN SSHFP       4 1 de556bb12a14a86baef92981dbd01cf5bb25a83f
-h.pr-ex.trnsz.com.                          IN SSHFP       4 2 fe407dfe28ce89bd683693daca0f11e480c74914fc8b844ba2c468aea9b4f92d
 ; gitlab.trnsz.com                          ;              gitlab.trnsz.com
 gitlab.trnsz.com.                           CNAME          brshpc0.trnsz.com.
 ; y.gitlab.trnsz.com                        ;              yggdrasil
 y.gitlab.trnsz.com.                         AAAA           200:6c77:5eb3:4ebf:edb6:8baa:ae72:69be
-y.gitlab.trnsz.com.                         IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-y.gitlab.trnsz.com.                         IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-y.gitlab.trnsz.com.                         IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-y.gitlab.trnsz.com.                         IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-y.gitlab.trnsz.com.                         IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-y.gitlab.trnsz.com.                         IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-y.gitlab.trnsz.com.                         IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-y.gitlab.trnsz.com.                         IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-y.gitlab.trnsz.com.                         IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-y.gitlab.trnsz.com.                         IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-y.gitlab.trnsz.com.                         IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-y.gitlab.trnsz.com.                         IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-y.gitlab.trnsz.com.                         IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-y.gitlab.trnsz.com.                         IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
-y.gitlab.trnsz.com.                         IN SSHFP       1 1 80e0ea03aa62b709bcef72faa4c9cb6a6d56c407
-y.gitlab.trnsz.com.                         IN SSHFP       1 2 66554e9d32b483076b5aea46afbac589ef373e7f575b1c6bc5ee71fcafc85867
-y.gitlab.trnsz.com.                         IN SSHFP       3 1 b6aba74e1e8a956bda7970b122ecaa50fdce0d36
-y.gitlab.trnsz.com.                         IN SSHFP       3 2 242b63058f2b864b44b1db5314e0cffe30a3497b58455e7cebe9f9e8ebb77494
-y.gitlab.trnsz.com.                         IN SSHFP       4 1 25ee7d8a127743cebfc2cc698c19fac24927a479
-y.gitlab.trnsz.com.                         IN SSHFP       4 2 5be6bdcd661bd756a145c8dee8d3472a308e4a44bfd9ed25d602d07b456c7f2f
 ; h.gitlab.trnsz.com                        ;              cjdns
 h.gitlab.trnsz.com.                         AAAA           fcc4:9094:0dca:f11a:2955:452e:1772:aee4
-h.gitlab.trnsz.com.                         IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-h.gitlab.trnsz.com.                         IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-h.gitlab.trnsz.com.                         IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-h.gitlab.trnsz.com.                         IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-h.gitlab.trnsz.com.                         IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-h.gitlab.trnsz.com.                         IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-h.gitlab.trnsz.com.                         IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-h.gitlab.trnsz.com.                         IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-h.gitlab.trnsz.com.                         IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-h.gitlab.trnsz.com.                         IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-h.gitlab.trnsz.com.                         IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-h.gitlab.trnsz.com.                         IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-h.gitlab.trnsz.com.                         IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-h.gitlab.trnsz.com.                         IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
-h.gitlab.trnsz.com.                         IN SSHFP       1 1 80e0ea03aa62b709bcef72faa4c9cb6a6d56c407
-h.gitlab.trnsz.com.                         IN SSHFP       1 2 66554e9d32b483076b5aea46afbac589ef373e7f575b1c6bc5ee71fcafc85867
-h.gitlab.trnsz.com.                         IN SSHFP       3 1 b6aba74e1e8a956bda7970b122ecaa50fdce0d36
-h.gitlab.trnsz.com.                         IN SSHFP       3 2 242b63058f2b864b44b1db5314e0cffe30a3497b58455e7cebe9f9e8ebb77494
-h.gitlab.trnsz.com.                         IN SSHFP       4 1 25ee7d8a127743cebfc2cc698c19fac24927a479
-h.gitlab.trnsz.com.                         IN SSHFP       4 2 5be6bdcd661bd756a145c8dee8d3472a308e4a44bfd9ed25d602d07b456c7f2f
 ; n.gitlab.trnsz.com                        ;              nebula
 n.gitlab.trnsz.com.                         A              192.168.42.1
-n.gitlab.trnsz.com.                         IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-n.gitlab.trnsz.com.                         IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-n.gitlab.trnsz.com.                         IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-n.gitlab.trnsz.com.                         IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-n.gitlab.trnsz.com.                         IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-n.gitlab.trnsz.com.                         IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-n.gitlab.trnsz.com.                         IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-n.gitlab.trnsz.com.                         IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-n.gitlab.trnsz.com.                         IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-n.gitlab.trnsz.com.                         IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-n.gitlab.trnsz.com.                         IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-n.gitlab.trnsz.com.                         IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-n.gitlab.trnsz.com.                         IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-n.gitlab.trnsz.com.                         IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; t.gitlab.trnsz.com                        ;              tailscale
 t.gitlab.trnsz.com.                         A              100.125.101.96
 t.gitlab.trnsz.com.                         AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
-t.gitlab.trnsz.com.                         IN SSHFP       1 1 92c82471108ba67b51e2e935d17680c7113f8377
-t.gitlab.trnsz.com.                         IN SSHFP       1 2 78a16ddd0b19666ff4ff193d24206c52b76d812d76b2fabb361855c50b1b6ac2
-t.gitlab.trnsz.com.                         IN SSHFP       2 1 084e2183145c36c78b8a5d1c2ffbb167ba44bc64
-t.gitlab.trnsz.com.                         IN SSHFP       2 2 5f0b8e32bf93f83be8e4eb343b1c48776bc5529973dee6b507d52f0c3c5d2664
-t.gitlab.trnsz.com.                         IN SSHFP       3 1 00490bf80ff4cfbc7cef668fbba24e2a37c5f7bf
-t.gitlab.trnsz.com.                         IN SSHFP       3 2 85326eaead36b940cf9772b0b61846983b078ce5ee29b897dc501e3452d837bb
-t.gitlab.trnsz.com.                         IN SSHFP       4 1 54fb531dff8a0ccaffc49319ef5b503d7c146234
-t.gitlab.trnsz.com.                         IN SSHFP       4 2 42f541ac13cf6359b4b65cf973509c01ed4c225e3ee4e95f7dfbf04c9f7f6820
-t.gitlab.trnsz.com.                         IN SSHFP       1 1 c38a5ea2bbb39cad6a449670f23a5d49194af6a6
-t.gitlab.trnsz.com.                         IN SSHFP       1 2 870d46ba628018c7cf61f86fda8fbf7654a9f3690e4b48dd20fab093d7515115
-t.gitlab.trnsz.com.                         IN SSHFP       3 1 7019066c56994426f9816ee66cedd57d6aa6f573
-t.gitlab.trnsz.com.                         IN SSHFP       3 2 9139167e146b9e7d87f037a5a6767f88dc1a09c2b08ec784fe456adeac62960c
-t.gitlab.trnsz.com.                         IN SSHFP       4 1 dc02b5448761646adae7a9172778fa16168de5a6
-t.gitlab.trnsz.com.                         IN SSHFP       4 2 4751669f9e329995950012d54788b9ff8cff32d61f01c977d8131711db7f8235
 ; multics.trnsz.com                         ;              multics.trnsz.com
 multics.trnsz.com.                          CNAME          brshpc0.trnsz.com.
 ; mail                                      ;              mail
