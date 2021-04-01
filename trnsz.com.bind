@@ -3,7 +3,6 @@
 ; defaults
 $ORIGIN                                                    trnsz.com.
 $TTL                                                       3600
-; soa
 trnsz.com.                                  IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
                                                            1       ; serial (luadns managed)
                                                            1200    ; refresh
@@ -11,60 +10,39 @@ trnsz.com.                                  IN SOA         ns1.luadns.net. hostm
                                                            604800  ; expiration
                                                            3600    ; default ttl
                                                            )
-; ns                                        ;              nameservers
 trnsz.com.                                  NS             ns1.luadns.net.
 trnsz.com.                                  NS             ns2.luadns.net.
 trnsz.com.                                  NS             ns3.luadns.net.
 trnsz.com.                                  NS             ns4.luadns.net.
-; *.trnsz.com                               ;              wildcard
 *.trnsz.com.                                A              198.58.100.240
 *.trnsz.com.                                AAAA           2600:3c00::f03c:92ff:feb2:b9ef
-; trnsz.com                                 ;              trnsz.com
 trnsz.com.                                  A              198.58.100.240
 trnsz.com.                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 www.trnsz.com.                              CNAME          trnsz.com.
 trnsz.com.                                  CAA            0 issue "letsencrypt.org"
-; y.trnsz.com                               ;              yggdrasil
 y.trnsz.com.                                AAAA           205:ddf2:80b9:7896:7b18:622b:5579:aa7d
-; h.trnsz.com                               ;              cjdns
 h.trnsz.com.                                AAAA           fc18:cd5:92ad:5ed6:9960:ad6f:d723:b971
-; m.trnsz.com                               ;              m.trnsz.com
 m.trnsz.com.                                CNAME          m.ban.ai.
-; brshpc0.trnsz.com                         ;              brshpc0.trnsz.com
 brshpc0.trnsz.com.                          120 A          108.226.107.96
 ;brshpc0.trnsz.com.                         120 AAAA       2600:1700:8ce1:19b0::41
 brshpc0.trnsz.com.                          CAA            0 issue "letsencrypt.org"
-; y.brshpc0.trnsz.com                       ;              yggdrasil
 y.brshpc0.trnsz.com.                        AAAA           200:6c77:5eb3:4ebf:edb6:8baa:ae72:69be
-; h.brshpc0.trnsz.com                       ;              cjdns
 h.brshpc0.trnsz.com.                        AAAA           fcc4:9094:0dca:f11a:2955:452e:1772:aee4
-; nebula-lighthouse.trnsz.com               ;              nebula-lighthouse
 nebula-lighthouse.trnsz.com.                CNAME          brshpc0.trnsz.com.
-; n.brshpc0.trnsz.com                       ;              nebula
 n.brshpc0.trnsz.com.                        A              192.168.42.1
-; t.brshpc0.trnsz.com                       ;              tailscale
 t.brshpc0.trnsz.com.                        A              100.125.101.96
 t.brshpc0.trnsz.com.                        AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
-; pr-ex.trnsz.com                           ;              pr-ex.trnsz.com
-pr-ex.trnsz.com.                            A              178.79.186.241
-pr-ex.trnsz.com.                            AAAA           2a01:7e00::f03c:92ff:fe3c:d8ab
-pr-ex.trnsz.com.                            CAA            0 issue "letsencrypt.org"
-; h.pr-ex.trnsz.com                         ;              cjdns
-h.pr-ex.trnsz.com.                          AAAA           fc32:14bf:6fa1:ec32:3f5a:8805:da45:ea68
-; gitlab.trnsz.com                          ;              gitlab.trnsz.com
+;pr-ex.trnsz.com.                            A              178.79.186.241
+;pr-ex.trnsz.com.                            AAAA           2a01:7e00::f03c:92ff:fe3c:d8ab
+;pr-ex.trnsz.com.                            CAA            0 issue "letsencrypt.org"
+;h.pr-ex.trnsz.com.                          AAAA           fc32:14bf:6fa1:ec32:3f5a:8805:da45:ea68
 gitlab.trnsz.com.                           CNAME          brshpc0.trnsz.com.
-; y.gitlab.trnsz.com                        ;              yggdrasil
 y.gitlab.trnsz.com.                         AAAA           200:6c77:5eb3:4ebf:edb6:8baa:ae72:69be
-; h.gitlab.trnsz.com                        ;              cjdns
 h.gitlab.trnsz.com.                         AAAA           fcc4:9094:0dca:f11a:2955:452e:1772:aee4
-; n.gitlab.trnsz.com                        ;              nebula
 n.gitlab.trnsz.com.                         A              192.168.42.1
-; t.gitlab.trnsz.com                        ;              tailscale
 t.gitlab.trnsz.com.                         A              100.125.101.96
 t.gitlab.trnsz.com.                         AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
-; multics.trnsz.com                         ;              multics.trnsz.com
 multics.trnsz.com.                          CNAME          brshpc0.trnsz.com.
-; mail                                      ;              mail
 trnsz.com.                                  MX             10 mx-1.pobox.com. 
 trnsz.com.                                  MX             10 mx-2.pobox.com. 
 trnsz.com.                                  MX             10 mx-3.pobox.com. 

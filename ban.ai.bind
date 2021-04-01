@@ -3,7 +3,6 @@
 ; defaults
 $ORIGIN                                                    ban.ai.
 $TTL                                                       3600
-; soa
 ban.ai.                                     IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
                                                            1       ; serial (luadns managed)
                                                            1200    ; refresh
@@ -11,20 +10,16 @@ ban.ai.                                     IN SOA         ns1.luadns.net. hostm
                                                            604800  ; expiration
                                                            3600    ; default ttl
                                                            )
-; ns                                        ;              nameservers
 ban.ai.                                     NS             ns1.luadns.net.
 ban.ai.                                     NS             ns2.luadns.net.
 ban.ai.                                     NS             ns3.luadns.net.
 ban.ai.                                     NS             ns4.luadns.net.
-; *.ban.ai                                  ;              wildcard
 *.ban.ai.                                   A              50.116.31.54
 ; *.ban.ai                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ban.ai.                                     A              50.116.31.54
 ; ban.ai                                    AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ban.ai.                                     CAA            0 issue "letsencrypt.org"
-; m.ban.ai                                  ;              m.ban.ai
 m.ban.ai.                                   CNAME          multics.trnsz.com.
-; mail                                      ;              mail
 ban.ai.                                     MX             10 mx-1.pobox.com. 
 ban.ai.                                     MX             10 mx-2.pobox.com. 
 ban.ai.                                     MX             10 mx-3.pobox.com. 

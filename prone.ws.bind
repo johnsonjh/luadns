@@ -3,7 +3,6 @@
 ; defaults
 $ORIGIN                                                    prone.ws.
 $TTL                                                       3600
-; soa
 prone.ws.                                   IN SOA         ns1.luadns.net. hostmaster.luadns.net. (
                                                            1       ; serial (luadns managed)
                                                            1200    ; refresh
@@ -11,18 +10,15 @@ prone.ws.                                   IN SOA         ns1.luadns.net. hostm
                                                            604800  ; expiration
                                                            3600    ; default ttl
                                                            )
-; ns                                        ;              nameservers
 prone.ws.                                   NS             ns1.luadns.net.
 prone.ws.                                   NS             ns2.luadns.net.
 prone.ws.                                   NS             ns3.luadns.net.
 prone.ws.                                   NS             ns4.luadns.net.
-; *.prone.ws                                ;              wildcard
 *.prone.ws.                                 A              50.116.31.54
 ;*.prone.ws.                                AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 prone.ws.                                   A              50.116.31.54
 ;prone.ws.                                  AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 prone.ws.                                   CAA            0 issue "letsencrypt.org"
-; mail                                      ;              mail
 prone.ws.                                   MX             10 mx-1.pobox.com. 
 prone.ws.                                   MX             10 mx-2.pobox.com. 
 prone.ws.                                   MX             10 mx-3.pobox.com. 
