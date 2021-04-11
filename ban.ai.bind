@@ -20,6 +20,7 @@ ban.ai.                                     A              50.116.31.54
 ; ban.ai                                    AAAA           2600:3c00::f03c:92ff:feb2:b9ef
 ban.ai.                                     CAA            0 issue "letsencrypt.org"
 m.ban.ai.                                   CNAME          multics.trnsz.com.
+access.ban.ai.                              CNAME          m.ban.ai.
 ban.ai.                                     MX             10 mx-1.pobox.com. 
 ban.ai.                                     MX             10 mx-2.pobox.com. 
 ban.ai.                                     MX             10 mx-3.pobox.com. 
