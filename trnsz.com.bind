@@ -24,6 +24,7 @@ y.trnsz.com.                                AAAA           205:ddf2:80b9:7896:7b
 h.trnsz.com.                                AAAA           fc18:cd5:92ad:5ed6:9960:ad6f:d723:b971
 m.trnsz.com.                                CNAME          m.ban.ai.
 access.trnsz.com.                           CNAME          m.trnsz.com.
+connect.trnsz.com.                          CNAME          access.trnsz.com.
 brshpc0.trnsz.com.                          120 A          108.226.107.96
 ;brshpc0.trnsz.com.                         120 AAAA       2600:1700:8ce1:19b0::41
 brshpc0.trnsz.com.                          CAA            0 issue "letsencrypt.org"
