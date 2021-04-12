@@ -45,6 +45,7 @@ n.gitlab.trnsz.com.                         A              192.168.42.1
 t.gitlab.trnsz.com.                         A              100.125.101.96
 t.gitlab.trnsz.com.                         AAAA           fd7a:115c:a1e0:ab12:4843:cd96:627d:6560
 multics.trnsz.com.                          CNAME          brshpc0.trnsz.com.
+_acme-challenge.trnsz.com.                  TXT            "P6fPhmuwRHupDVB1VQ_2fNoZk2hxRSVTl7rxwktGxtA"
 trnsz.com.                                  MX             10 mx-1.pobox.com. 
 trnsz.com.                                  MX             10 mx-2.pobox.com. 
 trnsz.com.                                  MX             10 mx-3.pobox.com. 
