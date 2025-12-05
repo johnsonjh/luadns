@@ -16,3 +16,4 @@ ban.ai.                                     NS             ns3.luadns.net.
 ban.ai.                                     NS             ns4.luadns.net.
 *.ban.ai.                                   A              108.226.107.96
 ban.ai.                                     A              108.226.107.96
+ban.ai.					    TXT            "keybase-site-verification=AIw-PAUMrIXadSDVBoOCN48TWgxA1s_GbRW-6BkNYiQ"
