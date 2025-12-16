@@ -22,8 +22,8 @@ ban.ai.                                     TXT            "76f40af567c4e55b2d90
 ban.ai.                                     TXT            "dh=d1e6e801f8261d911f7a0d5d096a9d1642aaec54"
 ban.ai.                                     TXT            "$argon2id$v=19$m=512,t=256,p=1$H3+s5ZfKhBxD+oCiW+hjcA$Y8FB12HFBscMDDZ9F8ASj3gacWntUKH19VtLCwTQNf0"
 ban.ai.                                     TXT            "v=spf1 include:spf.messagingengine.com ?all"
-fm1._domainkey.ban.ai.                      CNAME          fm1.ban.ai.dkim.fmhosted.com
-fm2._domainkey.ban.ai.                      CNAME          fm2.ban.ai.dkim.fmhosted.com
-fm3._domainkey.ban.ai.                      CNAME          fm3.ban.ai.dkim.fmhosted.com
-ban.ai.                                     MX 10          in1-smtp.messagingengine.com
-ban.ai.                                     MX 20          in2-smtp.messagingengine.com
+fm1._domainkey.ban.ai.                      CNAME          fm1.ban.ai.dkim.fmhosted.com.
+fm2._domainkey.ban.ai.                      CNAME          fm2.ban.ai.dkim.fmhosted.com.
+fm3._domainkey.ban.ai.                      CNAME          fm3.ban.ai.dkim.fmhosted.com.
+ban.ai.                                     MX 10          in1-smtp.messagingengine.com.
+ban.ai.                                     MX 20          in2-smtp.messagingengine.com.
